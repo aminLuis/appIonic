@@ -9,7 +9,7 @@
   <ion-row>
 
     <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities">
-      <ion-card>
+      <ion-card (click)="presentAlert2()">
         <ion-card-header>
           <ion-card-title>{{city.name}}</ion-card-title>
         </ion-card-header>
