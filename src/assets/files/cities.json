@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "name":"Alicante",
+            "image":"cold-paisaje.jpg"
+        },
+        {
+            "name":"Valencia",
+            "image":"islandia.jpg"
+        },
+        {
+            "name":"Castellón",
+            "image":"nieve.jpg"
+        }
+    ]
+}

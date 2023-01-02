@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="my-color">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Video Games</ion-label>
+    </ion-list-header>
+    <ion-item *ngFor="let customer of customers">
+      <ion-avatar slot="end">
+        <img src="../../assets/img/user.png" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{customer.name}}</h2>
+        <p>{{customer.description}}</p>
+      </ion-label>
+    </ion-item>  
+    
+  </ion-list>
+
+</ion-content>
